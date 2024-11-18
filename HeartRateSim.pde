@@ -151,7 +151,7 @@ void renderWave() {
   }
 }
 
-void keyPressed() {
+void keyPressed() { // called whenever a key is pressed
   
   if (key == ENTER && f < 204) {
     f += 10;
