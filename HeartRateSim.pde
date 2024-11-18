@@ -13,11 +13,10 @@ float amplitude = 40.0;  // Height of wave
 float period = 250.0;  // How many pixels before the wave repeats
 float dx;  // Value for incrementing X, a function of period and xspacing
 float f = 60.0;
-String condition;
 float[] yvalues;  // Using an array to store height values for the wave
 
-int c;
-int cc;
+int c; // controls text color
+int cc; // controls rect color
   
 void setup() {
   size(1650, 1000);
