@@ -163,7 +163,7 @@ void keyPressed() { // called whenever a key is pressed
     amplitude-=10;  // Decreasing the "heaight" of the wave (indicating a decrease in HR)
   }
   
- if(key=='r'){ // restets to resting HR
+ if(key=='r'){ // resets to resting HR
     amplitude=40.0;
     f = 60;
   }
